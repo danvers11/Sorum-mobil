@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+    <title>Pesan</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">Sorum <em> TIREG</em></a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="cars.html">Cars</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                              
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item"  href="about.html">About Us</a>
+                                </div>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="login2.html">Admin</a></li>  
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-content">
+                        <br>
+                        <br>
+                        <h2>Pesan <em>Online</em></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="row">
+    <div class="col-2"></div>
+    <div class="col-8">
+    
+    <form action="simpan.php" method="POST">
+
+    <table class="table table-bordered bg-light" >  
+  <thead>
+    <tr>
+      <th scope="col">No</th>
+      <th scope="col">Properti</th>
+      <th scope="col"></th>
+      <th scope="col">Keterangan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td align="left">Nama</td>
+                <td align="center">:</td>
+                <td>
+                    <input type="text" name="Nama"></td>
+                </td>
+    </tr>
+    <th scope="row">2</th>
+    <td align="left">Alamat</td>
+                <td align="center">:</td>
+                <td>
+                    <input type="text" name="alamat"></td>
+                </td>
+    </tr>
+    
+    <tr>
+        <th scope="row">3</th>
+        <td align="left">Tipe Mobil</td>
+                <td align="center">:</td>
+                <td>
+                    <input type="text" name="TipeMobil"></td>
+                </td>
+
+    </tr>
+
+    <tr>
+      <th scope="row">4</th>
+      <td align="left">kredit/lunas</td>
+                <td align="center">:</td>
+                <td>
+                    <input type="text" name="kreditlunas"></td>
+                </td>
+    </tr>
+
+    <tr>
+      <th scope="row">5</th>
+      <td align="left">Warna</td>
+                <td align="center">:</td>
+                <td>
+                    <input type="text" name="Warna"></td>
+                </td>
+    </tr>
+
+    <tr>
+      <th scope="row">6</th>
+      <td align="left">No telepon</td>
+                <td align="center">:</td>
+                <td>
+                    <input type="text" name="Notelepon"></td>
+                </td>
+    </tr>
+
+    <tr>
+      <th scope="row">7</th>
+      <td align="left">Keterangan</td>
+                <td align="center">:</td>
+                <td>
+                    <input type="text" name="Keterangan"></td>
+                </td>
+    </tr>
+
+  </tbody>
+</table>
+        <table align="center">
+            <tr>
+                <td colspan="3">
+            <button type="submit" name="input" class="btn btn-primary">Transaksi</button>
+            <button type="submit" name="batal" type="reset" class="btn btn-primary">Batal</button>
+                </td>
+            </tr>
+            </table>
+
+    </form>
+    
+    </div>
+    <div class="col-2"></div>
+</div>
+
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        Copyright © 2020 By TIREG
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/mixitup.js"></script> 
+    <script src="assets/js/accordions.js"></script>
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
+
+<?php
+if (isset($_POST["input"])) {
+    $Nama  = $_POST["Nama"];
+    $alamat  = $_POST["alamat "];
+    $TipeMobil = $_POST["TipeMobil"];
+    $kreditlunas = $_POST["kredit/lunas"];
+    $Warna = $_POST["Warna"];
+    $Notelepon = $_POST["Notelepon"];
+    $Keterangan = $_POST["Keterangan"];
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan</title>
+</head>
+<body>
+    <table border="1" align="center" width="400">
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td><?=$Nama?></td>
+        </tr>
+
+        <tr>
+            <td>alamat</td>
+            <td>:</td>
+            <td><?=$alamat?></td>
+        </tr>
+
+        <tr>
+            <td>Tipe Mobil</td>
+            <td>:</td>
+            <td><?=$TipeMobil?></td>
+        </tr>
+
+        <tr>
+            <td>kredit/lunas</td>
+            <td>:</td>
+            <td><?= $kreditlunas?></td>
+        </tr>
+
+        <tr>
+            <td>Warna</td>
+            <td>:</td>
+            <td><?= $Warna?></td>
+        </tr>
+
+        <tr>
+            <td>No telepon</td>
+            <td>:</td>
+            <td><?= $Notelepon?></td>
+        </tr>
+
+        <tr>
+            <td>Keterangan</td>
+            <td>:</td>
+            <td><?= $Keterangan ?></td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<?php } ?>

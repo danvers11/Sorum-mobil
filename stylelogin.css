@@ -1,0 +1,31 @@
+/* LOG IN */
+form.login{
+  width: 30%;
+  padding: 30px;
+  background: #DEDEDE;
+  float: left;
+  position: relative;
+  margin-top: 10%;
+  left: 30%;
+  right: 30%;
+  text-align: center;
+  border-radius: 10px;
+}
+h1.login{
+  font-size: 32px;
+  font-weight: lighter;
+}
+input.login{
+  padding: 10px;
+  float: left;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+}
+.button-login{
+  border: solid 3px gray;
+}
+.button-login:hover{
+  background: gray;
+}
